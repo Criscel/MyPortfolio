@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+#computer {
+    color: white;
+}
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    font-style: bold;
+    margin-left: 10px;
+}
+.front {
+    width: 60%;
+    height: 100%;
+    margin: 20px 0 20px 0;
+}
+.container {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+}
+
+.download-btn {
+    background-color: rgb(250, 66, 66);
+    color: white;
+    padding: 15px 30% 15px 30%;
+    border-radius: 10px;
+    margin: 40px 0 40px 0;
+}
+
+.logo {
+    margin: 40px 15px;
+}
+
+.icon {
+    color: black;
+    margin-right: 5px;
+}
+
+.icon:hover {
+    color: rgb(7, 161, 250);
+}
+
+
+/* Footer */
+#footer {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding: 10px;
+    height: 60px;
+    text-align: center;
+    font-size: 10px;
+    background-color: rgba(31, 31, 39, 0.877);
+    color: white;
+    clear: both;
+    border: 2px solid;
+    border-color: white;
+    margin-top: 10%;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        margin-left: 10%;
+        
+    }
+    .logo .icon {
+        margin-right: 10%;
+    }
+    .download-btn {
+        padding: 20px 15% 20px 15%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .logo {
+        margin-left: 15%;
+    }
+    .logo .icon {
+        margin-right: 15%;
+    }  
+}
