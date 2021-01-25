@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+.container {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#contact {
+    margin: 30px;
+}
+
+.details {
+    color: gray;
+}
+
+#submit {
+    padding: 5% 15% 5% 15%;
+}
+
+@media screen and (min-width: 768px) {
+    #contact {
+        float: right;
+        position: relative;
+        text-align: right;
+        margin: 0px;
+    }
+
+    #sender-details {
+        float: left;
+        position: absolute;
+        width: 100%;
+    }
+
+    #submit {
+        margin-top: 55%;
+        margin-left: 25%;
+        position: relative;
+        padding: 20px 40px 20px 40px;
+
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+
+}
