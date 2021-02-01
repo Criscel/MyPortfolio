@@ -16,6 +16,10 @@
     margin-bottom: 20px;
 }
 
+textarea {
+    resize: vertical;
+}
+
 
 @media screen and (max-width: 767px) {
     .pic {
