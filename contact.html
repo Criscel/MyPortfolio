@@ -16,82 +16,94 @@
 </head>
 
 <body>
-<!-- Nav Bar -->
-<div class="card bg-light mb-3" style="max-width: 100%;">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark"><i class="fas fa-laptop-code fa-2x" id="computer"></i>
-        <h2>Criscel</h2>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- Nav Bar -->
+    <div class="card bg-light mb-3" style="max-width: 100%;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark"><i class="fas fa-laptop-code fa-2x" id="computer"></i>
+            <h2>Criscel</h2>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-    </nav>
- </div>
+                <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </div>
 
- <div class="container">
-     <h1 class="contact">Get in Touch with Me</h1>
-     <p>I would love to hear from you 😊 </p>
-
-     <div class="row" id="sender-details">
-         <div class="col-md-6">
-             <form>
+    <div class="container">
+        <h1>Get in Touch with Me</h1>
+        <p>I would love to hear from you 😊 </p>
+        <!-- Mobile View -->
+        <div class="mobile">
+            <form>
                 <input required type="text" name="text" class="form-control" placeholder="Name">
                 <br>
-                <input required type="email" name="email" class="form-control" placeholder="Email">
+                <input required type="email" name="email" class="form-control" placeholder="email@example.com">
                 <br>
                 <input required type="number" name="number" class="form-control" placeholder="Number">
                 <br>
                 <textarea rows="6" placeholder="Your Message" class="form-control"></textarea>
                 <br>
-             </form>
-         </div>
-     </div>
+            </form>
+            <button type="button" class="btn btn-danger" id="submit">Submit</button>
+            <br>
+            <a href="https://www.google.com/maps/place/46+Stewart+St,+Ermington+NSW+2115/@-33.7991569,151.0566512,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12a46ffd439a11:0x4397c294d4379e5e!8m2!3d-33.7991614!4d151.0588399"><i class="fas fa-map-marked-alt fa-lg"></i></a>
+            <p>46 Stewart Street, Ermington, NSW 2115</p>
+            <a href="mailto: cel_agdeppa@yahoo.com"><i class="fas fa-envelope-open-text fa-lg"></i></a>
+            <p>cel_agdeppa@yahoo.com</p>
+        
+            <a href="0424091537"><i class="fas fa-mobile-alt fa-lg"></i></a>
+            <p>0424 091 537</p>
+        </div>
+        <!-- Desktop View -->
+        <div class="row" id="sender-details">
+            <div class="col-6">
+                <form>
+                    <input required type="text" name="text" class="form-control" placeholder="Name">
+                    <br>
+                    <input required type="email" name="email" class="form-control" placeholder="email@example.com">
+                    <br>
+                    <input required type="number" name="number" class="form-control" placeholder="Number">
+                    <br>
+                    <textarea rows="6" placeholder="Your Message" class="form-control"></textarea>
+                    <br>
+                </form>
+                <button type="button" class="btn btn-danger" id="submit">Submit</button>
+            </div>
+            <div class="col-6">
+                <img src="Assests/contact.jpg" class="pic">
+                <div class="details">
 
-     <!--<div class="row">
-        <div class="col-md-3">-->
-        <button type="button" class="btn btn-danger" id="submit">Submit</button>
-        <!--</div>
-    </div>-->
-
-     <div class="row" id="contact">
-        <!--<div class="col-md-4">-->
-            <div class="details">
                 <a href="https://www.google.com/maps/place/46+Stewart+St,+Ermington+NSW+2115/@-33.7991569,151.0566512,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12a46ffd439a11:0x4397c294d4379e5e!8m2!3d-33.7991614!4d151.0588399"><i class="fas fa-map-marked-alt fa-lg"></i></a>
-                <p>46 Stewart Street, Ermington, NSW 2115</p> 
+                <p>46 Stewart Street, Ermington, NSW 2115</p>
 
                 <a href="mailto: cel_agdeppa@yahoo.com"><i class="fas fa-envelope-open-text fa-lg"></i></a>
                 <p>cel_agdeppa@yahoo.com</p>
             
                 <a href="0424091537"><i class="fas fa-mobile-alt fa-lg"></i></a>
                 <p>0424 091 537</p>
+
+                </div>
             </div>
-        <!--</div>-->
-     </div>
-
- </div>
-
-  <!-- Sticky Footer Section -->
-<div id="footer">
-    <h6>★ Cel Agdeppa ★</h6>
-        <p class="copyright"> &copy; 2021 </p>
-</div> 
-
+        </div>
+    </div>
 </body>
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
