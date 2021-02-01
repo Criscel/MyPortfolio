@@ -15,10 +15,10 @@ I also used an API for the submit button in Contact Me page.
 ## Usage
 [My Portfolio - Responsive](https://criscel.github.io/MyPortfolio/index.html)
 
-![Home Page](Assets/homepage.PNG)
-![About Me Page](Assets/aboutme.PNG)
-![Portfolio](Assets/portfolio.PNG)
-![Contact Me](Assets/contactme.PNG)
+![Home Page](Assets/homepage.png)
+![About Me Page](Assets/aboutme.png)
+![Portfolio](Assets/portfolio.png)
+![Contact Me](Assets/contactme.png)
 
 ## Credits
 [MDN Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
