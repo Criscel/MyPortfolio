@@ -19,6 +19,11 @@ h2 {
     text-align: center;
 }
 
+.heading {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+}
+
 .download-btn {
     background-color: rgb(250, 66, 66);
     color: white;
@@ -42,7 +47,7 @@ h2 {
 
 
 /* Footer */
-#footer {
+footer {
     font-family: 'Alegreya Sans SC', sans-serif;
     padding: 10px;
     height: 60px;

@@ -4,6 +4,20 @@
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+section {
+    position: absolute;
+    width: 50%;
+    margin-top: 10%;
+}
+
+aside {
+    position: relative;
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+    padding-left: 10%;
+}
+
 .details {
     color: gray;
     text-align: center;
@@ -20,12 +34,21 @@ textarea {
     resize: vertical;
 }
 
+footer {
+    margin-top: 70%;
+    position: relative;
+    width: 100%;
+}
+
 
 @media screen and (max-width: 767px) {
     .pic {
         display: none;
     }
     .row {
+        display: none;
+    }
+    footer {
         display: none;
     }
 }
@@ -58,6 +81,12 @@ textarea {
     }
     .row {
         margin-top: 10%;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 80%;
+        width: 100%;
     }
 
 }

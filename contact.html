@@ -9,14 +9,15 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact_style.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/contact_style.css">
 
     <title>Contact Me</title>
 </head>
 
 <body>
     <!-- Nav Bar -->
+    <header>
     <div class="card bg-light mb-3" style="max-width: 100%;">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark"><i class="fas fa-laptop-code fa-2x" id="computer"></i>
             <h2>Criscel</h2>
@@ -42,10 +43,12 @@
                 </div>
         </nav>
     </div>
+</header>
 
     <div class="container">
         <h1>Get in Touch with Me</h1>
         <p>I would love to hear from you 😊 </p>
+
         <!-- Mobile View -->
         <div class="mobile">
             <form action="https://formspree.io/f/xzbkwdpa" method="POST">
@@ -69,9 +72,12 @@
             <a href="0424091537"><i class="fas fa-mobile-alt fa-lg"></i></a>
             <p>0424 091 537</p>
         </div>
+
         <!-- Desktop View -->
-        <div class="row" id="sender-details">
-            <div class="col-6">
+        
+        <!-- <div class="row" id="sender-details"> -->
+            <section>
+            <!-- <div class="col-6"> -->
                 <form action="https://formspree.io/f/xzbkwdpa" method="post">
                     <input required type="text" name="name" class="form-control" placeholder="Name">
                     <br>
@@ -82,12 +88,13 @@
                     <textarea rows="6" placeholder="Your Message" class="form-control"></textarea>
                     <br>
                     <button type="submit" class="btn btn-danger" id="submit">Submit</button>
-                </form>
-                
-            </div>
+                </form>  
+            <!-- </div> -->
+        </section>
 
-            <div class="col-6">
-                <img src="Assets/contact.jpg" class="pic">
+            <aside>
+            <!-- <div class="col-6"> -->
+                <img src="./Assets/images/contact.jpg" class="pic">
                 <div class="details">
 
                 <a href="https://www.google.com/maps/place/46+Stewart+St,+Ermington+NSW+2115/@-33.7991569,151.0566512,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12a46ffd439a11:0x4397c294d4379e5e!8m2!3d-33.7991614!4d151.0588399"><i class="fas fa-map-marked-alt fa-lg"></i></a>
@@ -100,12 +107,20 @@
                 <p>0424 091 537</p>
 
                 </div>
-            </div>
-        </div>
+            <!-- </div> -->
+        </aside>
+
+        <!-- </div> -->
     </div>
 </body>
 
-
+<!-- Sticky Footer Section -->
+<footer>
+    <div id="footer">
+        <h6>★ Cel Agdeppa ★</h6>
+        <p class="copyright"> &copy; 2021 </p>
+    </div>
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

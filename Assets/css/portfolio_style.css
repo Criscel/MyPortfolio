@@ -1,0 +1,121 @@
+.heading {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+img {
+    width: 90%;
+    height: 100%;
+    /* margin: 3%; */
+    border-radius: 5px;
+    margin: 0%;
+    position: static;
+}
+
+.row {
+    /* border: 3px solid rgba(28, 27, 27, 0.92);
+    border-radius: 10px; */
+    margin: 0 10% 5% 10%;
+    position: relative;
+}
+
+/* animation starts here */
+.row:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 3px solid transparent
+}
+
+.row:hover:before {
+    animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        width: 0;
+        height: 0;
+        border-top-color: rgb(2, 2, 2);
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    50% {
+        width: 100%;
+        height: 0;
+        border-top-color: rgb(2, 2, 2);
+        border-right-color:  rgb(46, 46, 46);
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-color: rgb(245, 130, 130);
+        border-right-color:  rgb(241, 14, 14);
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+}
+
+.row:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 3px solid transparent
+}
+
+.row:hover:after {
+    animation: animate2 1s linear forwards;
+    animation-delay: 1s;
+}
+
+@keyframes animate2 {
+    0% {
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: rgb(2, 2, 2);
+    }
+    50% {
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color:  transparent;
+        border-bottom-color: rgb(2, 2, 2);
+        border-left-color: rgb(46, 46, 46);
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color:  transparent;
+        border-bottom-color: rgb(241, 14, 14);
+        border-left-color: rgb(245, 130, 130);
+    }
+}
+/* End of animation */
+
+.repo {
+    margin: 5% 0 0 15%;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        width: 70%;
+        height: 80%;
+        margin: 5%;
+        border-radius: 5px;
+    }
+}
