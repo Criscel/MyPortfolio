@@ -17,6 +17,7 @@ img {
     border-radius: 10px; */
     margin: 0 10% 5% 10%;
     position: relative;
+    padding-bottom: 5%;
 }
 
 /* animation starts here */
@@ -107,8 +108,8 @@ img {
 /* End of animation */
 
 .repo {
-    margin: 5% 0 0 15%;
-    font-size: 25px;
+    margin: 5% 0 0 10%;
+    font-size: 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -117,5 +118,10 @@ img {
         height: 80%;
         margin: 5%;
         border-radius: 5px;
+    }
+
+    .repo {
+        margin: 5% 0 0 15%;
+        font-size: 25px;
     }
 }
